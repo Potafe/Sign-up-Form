@@ -1,0 +1,147 @@
+@font-face {
+    font-family: NorseBold;
+    src: url(fonts/Norse-Bold.otf);
+}
+@font-face {
+    font-family: FormUp;
+    src: url(fonts/Poppins-Medium.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 100vh;
+}
+
+.picture {
+    width: 30vw;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+/* left */
+
+.logo {
+    display: flex;
+    margin-top: 13em;
+    height: 13vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.odin {
+    height: 12vh;
+}
+
+h1 {
+    color: white;
+    font-size: 5em;
+    font-family: NorseBold;
+}
+
+/* right */
+
+.right {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    width: 70vw;
+    height: 100%;
+}
+
+.left {
+    padding: 3vw;
+}
+
+.top {
+    font-family: FormUp;
+    font-weight: 800;
+    font-size: 1.1vw;
+    width: 60vw;
+    padding-top: 0.8vh;
+    padding-left: 2vw;
+    margin-top: 30px;
+    white-space: pre-line;
+    height: 25vh;
+}
+
+/*form*/
+
+.form {
+    box-shadow: 0 10px 20px -2px wheat;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.inputs {
+    outline: 2px solid green;;
+    display: flex;
+    flex-wrap: column wrap; 
+    font-size: 0.7rem;
+    opacity: 50%;
+}
+
+.form-title {
+    width: 100%;
+    font-family: FormUp;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: black;
+}
+
+input {
+    font-family: FormUp;
+    border: 1px solid #e5e7EB;
+    border-radius: 3px;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid black;
+}
+
+button {
+    background-color: #596d48;
+    font-weight: 700;
+    font-size: 1.2em;
+    border: 2px solid #596d48;
+    border-radius: 5px;
+    padding: 10px 40px;
+    margin: 40px 0;
+    color: wheat;
+    margin-left: 2vw;
+}
+
+button:hover {
+    background-color:olivedrab;
+}
+
+.log-in {
+    display: flex;
+    font-family: FormUp;
+    margin-left: -1vw;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 750;
+    font-family: FormUp;
+}
+
+a:hover {
+    color: green;
+}
